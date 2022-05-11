@@ -1,0 +1,54 @@
+<html>
+<body>
+
+</body>
+</html>
+<!DOCTYPE HTML>
+<html LANG="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+  </head>
+<body>
+        <h2>Formulario del cuento de los 3 cerditos:</h2>
+        <form action="index.php" method="post" >
+    
+<p> seleciona un color para el cerdito</p>
+    colorcerdito:
+	<input type="text" name="colorcerdito" maxlength="50"><br>
+<p>seleciona un color para el lobo</p>
+    ColorLobo:
+    <select name="ColorLobo">
+        <option value="negro">negro</option>
+        <option value="azul" selected="selected">azul</option>
+        <option value="blanco">blanco</option>
+        <option value="verde">verde</option>
+    </select> <br>
+    <p>Seleciona tu cerdito</p>
+    cerdito:
+    <input type="radio" name="cerdito" value="flautista">Cerdito FLautista</input>
+    <input type="radio" name="cerdito" value="violinista">Cerdito Violinista</input>
+    <input type="radio" name="cerdito" value="practico">Cerdito Practico</input><br>
+
+    <p>el lobo te da a elejir dos caminos seleciona uno</p>
+    camino:
+    <input type="radio" name="camino" value="Derecha">Derecha</input>
+    <input type="radio" name="camino" value="Izquierda">Izquierda</input><br> 
+    <p>escuchas a una abuelita gritar la ayudas o no?</p>
+    abuelita:
+    <select name="abuelita">
+        <option value="ayudarla">ayudarla</option>
+        <option value="seguir tu camino" selected="selected">seguir tu camino</option>
+	<option value="fui por el camino de la izquierda">fui por el camino de la izquierda</option>
+
+    </select> <br>
+
+ materialcasa:
+    <input type="radio" name="materialcasa" value="piedra">piedra</input>
+    <input type="radio" name="materialcasa" value="paja">paja</input>
+    <input type="radio" name="materialcasa" value="madera">madera</input><br>
+
+<input type="submit" name="submit" value="Enviar">
+</form>
+</body>
+</html>
